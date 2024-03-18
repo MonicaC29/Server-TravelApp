@@ -15,7 +15,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 8000;
 const corsOption = {
-  origin: "http://localhost:3000",
+  origin: "https://client-travelapp.onrender.com",
 };
 
 // Logging middleware for development environment
